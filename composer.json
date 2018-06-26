@@ -18,7 +18,8 @@
     ],
     "require": {
         "php": ">=5.4.16",
-        "cakephp/cakephp": "~3.0"
+        "cakephp/cakephp": "~3.0",
+        "iignatov/lightopenid": "^1.0"
     },
     "autoload": {
         "psr-4": {
