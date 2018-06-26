@@ -9,7 +9,7 @@ use Cake\Core\Configure;
 
 class SteamAuthenticate extends BaseAuthenticate
 {
-	const STEAM_URL = 'http://steamcommunity.com/openid/';
+    const STEAM_URL = 'http://steamcommunity.com/openid/';
 	
     public function authenticate(ServerRequest $request, Response $response)
     {
